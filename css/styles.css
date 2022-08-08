@@ -46,6 +46,14 @@ img {
   color: var(--accent-text-color);
 }
 
+.contakt-link .contact-item-icon.current,
+.contakt-link .contact-item-icon:active,
+.contakt-link .contact-item-icon:hover,
+.contakt-link .contact-item-icon:focus {
+  color: var(--accent-text-color);
+}
+
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -133,6 +141,10 @@ img {
   background-position: center;
   background-size: contain;
 }
+
+
+
+
 
 
 
