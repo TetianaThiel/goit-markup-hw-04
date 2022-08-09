@@ -253,9 +253,6 @@ img {
 }
 
 
-
-
-
 .gallery-title {
   font-weight: 700;
   font-size: 18px;
@@ -324,7 +321,7 @@ img {
 .benefits-icon {
 
   display: flex;
-  
+
 
 }
 
@@ -595,7 +592,6 @@ img {
 
 .footer-soc-list {
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 
