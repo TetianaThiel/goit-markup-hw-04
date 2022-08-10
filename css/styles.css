@@ -125,6 +125,7 @@ img {
 }
 
 .contacts-list .link {
+  font-weight: 500;
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -191,7 +192,6 @@ img {
   padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
-cursor: pointer;
   min-width: 216px;
   color: var(--primary-white-color);
   background-color: var(--bth-color);
@@ -232,24 +232,21 @@ cursor: pointer;
   margin-right: 8px;
 }
 
-.btn-item {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
-}
-
 .button-portfolio:active,
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--primary-white-color);
   background-color: var(--bth-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 
-.gallery-item {
+.gallery-item:hover,
+.gallery-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .gallery-title {
   font-weight: 700;
@@ -314,13 +311,11 @@ cursor: pointer;
   height: 120px;
   margin-bottom: 30px;
   background: #F5F4FA;
+  border-radius: 4px;
 }
 
 .benefits-icon {
-
   display: flex;
-
-
 }
 
 .benefits-item-titel {
